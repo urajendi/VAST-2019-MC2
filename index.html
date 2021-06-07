@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <link rel='stylesheet' href='css/layout.css'>
+    <link rel='stylesheet' href='css/index.css'>
+    <title>CSE 578 Final Project</title>
+</head>
+<body onload="runOnLoad()">
+    <!-- Header -->
+    <header>
+        <span class="title">   
+            <div class="center">VAST 2019 Mini Challenge - 2</div>
+        </span>
+        <span class="header">Regions Dashboard</span>
+        <span class="icons">
+            <div class="icon-item v-center"></div>
+            <div class="icon-item v-center"></div>
+            <a href="index.html"><img class="icon-item v-center" src="img/location-white.png" alt="Location"></a>
+            <a href="sensors.html"><img class="icon-item v-center" src="img/sensor-white.png" alt="Sensor"></a>
+        </span>
+    </header>    
+    <div class="row">
+        <svg id="canvas"></svg>
+        <div class="slider">
+            <input id="dateSelect" type="range" min="6" max="10" step="1" value="6" onchange="dateChanged()">
+        </div>
+        <div id="slider-label" class="slider-label">Date: <span id="currentDate"></span></div>
+    </div>
+    <!-- Footer -->
+    <footer class="center">
+        <span class="v-center">
+            Made with <span class="heart">&hearts;</span> by our team.
+        </span>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+</html>

@@ -1,0 +1,53 @@
+#canvas {
+    height:720px;
+    width:100%;
+}
+
+#map{
+    border-radius: 1px;
+    border:1px solid gray;
+}
+
+.citymap:hover{
+    opacity: 0.75;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+path{
+    stroke: none;
+}
+
+.checkbox-group{
+    margin: 5rem 0rem 0rem 5rem;
+}
+
+.mapTooltip, .pieTooltip, .barTooltip{
+    height: auto;
+    width: auto;
+    position: absolute;
+    text-align: left;
+    padding: 15px;
+    background: #FFFFFF;
+    color: #000;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: 14px;
+}
+.slider-label{
+    position: absolute;
+    color: #000;
+    margin-left: 590px;
+    margin-top: -30px;
+}
+.slider{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -60px;
+}
+#dateSelect{
+    width: 200px;
+}

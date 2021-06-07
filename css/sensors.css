@@ -1,0 +1,87 @@
+body{
+  background-color: #ebebeb;
+}
+
+.active{
+  stroke: black;
+}
+
+
+div.tooltip {
+  height: auto;
+  width: auto;
+  position: absolute;
+  text-align: left;
+  padding: 15px;
+  background: #FFFFFF;
+  color: #000;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 14px;
+}
+
+#canvas {
+  height:410px;
+  width:100%;
+}
+
+#gridContainer{
+  height: 475px;
+  margin-top: -250px;
+  width: 100%;
+  float: left;
+  overflow: scroll;
+}
+
+#grids {
+  border-radius:10px;
+  height: 670%;
+  width: 100%;
+}
+
+#mapAreaContainer{
+  height: 500px;
+  width: 100%;
+}
+
+#mapArea{
+  height: 100%;
+  width: 100%;
+  border-radius:10px;
+  float: left;
+}
+
+#sensorSelect{
+  margin: 25px;
+  font-size: 1rem;
+}
+
+#dateSelector{
+  padding-left: 10px;
+}
+
+.dropDown{
+  position: relative;
+  bottom: -425px;
+  float: right;
+}
+#gridLegend {
+  width: 700px;
+  height: 300px;
+}
+
+.slider-label{
+  position: absolute;
+  color: #000;
+  margin-left: 780px;
+  margin-top: -285px;
+}
+.slider{
+  position: absolute;
+  margin-left: 750px;
+  margin-top: -320px;
+}
+#dateSelect{
+  width: 200px;
+}
